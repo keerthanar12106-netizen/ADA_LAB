@@ -55,7 +55,7 @@ int main() {
     } */
     scanf("%d", &n);
 
-    printf("enter the number of vertex:\n",n);
+    printf("enter the cost matrix:\n",n);
 
     for (i = 0; i < n; i++) 
         for (j = 0; j < n; j++) 

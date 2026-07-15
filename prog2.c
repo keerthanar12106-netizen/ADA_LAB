@@ -34,9 +34,9 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             scanf("%d",&cost[i][j]);
-            if(cost[i][j]==0){
+           /*if(cost[i][j]==0){
                 cost[i][j]=999;
-            }
+            }*/
         }
     }
 prim();
